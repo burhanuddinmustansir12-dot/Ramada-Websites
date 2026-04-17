@@ -24,3 +24,36 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Image Slider Animations */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1000%);
+  }
+}
+
+@keyframes slide-reverse {
+  0% {
+    transform: translateX(-1000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide {
+  animation: slide 20s linear infinite;
+}
+
+.animate-slide-reverse {
+  animation: slide-reverse 25s linear infinite;
+}
+
+/* Optional: Pause on hover */
+.animate-slide:hover,
+.animate-slide-reverse:hover {
+  animation-play-state: paused;
+}
