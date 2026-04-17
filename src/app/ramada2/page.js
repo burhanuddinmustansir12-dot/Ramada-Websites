@@ -165,7 +165,6 @@ export default function Ramada2() {
                 </button>
                 <button
                   onClick={() => {
-                    // Save logic here
                     setIsEditingSliders(false);
                   }}
                   className="px-3 py-1 bg-purple-500 text-white text-xs rounded hover:bg-purple-600"
@@ -242,7 +241,6 @@ export default function Ramada2() {
                   </button>
                   <button
                     onClick={() => {
-                      // Save logic here
                       setIsEditing(false);
                     }}
                     className="px-4 py-2 bg-purple-500 text-white text-sm rounded hover:bg-purple-600"
