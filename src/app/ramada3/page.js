@@ -2,7 +2,7 @@
 
 export default function Ramada3() {
   return (
-    <div className="min-h-screen bg-blue-50 flex">
+    <div className="min-h-screen bg-green-50 flex">
       {/* Left Column - 3 Equal Columns for Images */}
       <div className="w-80 bg-gray-100 border-r border-gray-300">
         <div className="p-4">
@@ -52,11 +52,11 @@ export default function Ramada3() {
       <div className="flex-1 p-6">
         {/* First Row - Two Columns */}
         <div className="grid grid-cols-2 gap-4 mb-4">
-          <div className="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+          <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
             <h3 className="text-lg font-semibold mb-2">Top Left</h3>
             <p className="text-gray-600">Content area 1</p>
           </div>
-          <div className="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+          <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
             <h3 className="text-lg font-semibold mb-2">Top Right</h3>
             <p className="text-gray-600">Content area 2</p>
           </div>

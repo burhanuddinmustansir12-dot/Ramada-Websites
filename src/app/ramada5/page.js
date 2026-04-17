@@ -2,7 +2,7 @@
 
 export default function Ramada5() {
   return (
-    <div className="min-h-screen bg-purple-50 flex">
+    <div className="min-h-screen bg-yellow-50 flex">
       {/* Left Column - 3 Equal Columns for Images */}
       <div className="w-80 bg-gray-100 border-r border-gray-300">
         <div className="p-4">
@@ -52,11 +52,11 @@ export default function Ramada5() {
       <div className="flex-1 p-6">
         {/* First Row - Two Columns */}
         <div className="grid grid-cols-2 gap-4 mb-4">
-          <div className="bg-violet-50 p-6 rounded-lg border border-violet-200">
+          <div className="bg-amber-50 p-6 rounded-lg border border-amber-200">
             <h3 className="text-lg font-semibold mb-2">Top Left</h3>
             <p className="text-gray-600">Content area 1</p>
           </div>
-          <div className="bg-violet-50 p-6 rounded-lg border border-violet-200">
+          <div className="bg-amber-50 p-6 rounded-lg border border-amber-200">
             <h3 className="text-lg font-semibold mb-2">Top Right</h3>
             <p className="text-gray-600">Content area 2</p>
           </div>
@@ -64,11 +64,11 @@ export default function Ramada5() {
 
         {/* Second Row - Two Columns */}
         <div className="grid grid-cols-2 gap-4">
-          <div className="bg-fuchsia-50 p-6 rounded-lg border border-fuchsia-200">
+          <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
             <h3 className="text-lg font-semibold mb-2">Bottom Left</h3>
             <p className="text-gray-600">Content area 3</p>
           </div>
-          <div className="bg-fuchsia-50 p-6 rounded-lg border border-fuchsia-200">
+          <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
             <h3 className="text-lg font-semibold mb-2">Bottom Right</h3>
             <p className="text-gray-600">Content area 4</p>
           </div>
